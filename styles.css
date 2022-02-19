@@ -19,11 +19,6 @@
   color: rgb(32, 210, 223);
 }
 
-/* Add a color to the active/current link */
-/*.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}*/
 
 .Aboutme { 
   background-color: rgba(105, 72, 90, 0.548); text-align: center; padding: 10%;
@@ -76,7 +71,6 @@ font-size: x-large; font-style: italic;
   right: 0;
 }
 
-/* Button styling end*/
 * {
   box-sizing: border-box;
 }
@@ -88,13 +82,17 @@ font-size: x-large; font-style: italic;
   cursor: pointer;
 }
 
-/* Clearfix (clear floats) */
+
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
 
+
+/* Button styling end*/
+
+/* contact section styling starts*/
 .contact { 
   background-color: rgba(105, 72, 90, 0.548); text-align: center; padding: 10%;
  
@@ -132,3 +130,4 @@ font-size: x-large; font-style: italic;
   background: #007bb5;
   color: white;
 }
+/* contact section styling starts*/
